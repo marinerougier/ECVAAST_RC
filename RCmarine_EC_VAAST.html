@@ -279,7 +279,7 @@
             stimulus: function () {
                 html = "";
                 html += "<p>Select the face that you think is the most similar to </br>the group of faces that ";
-                html += "had a " + color2 + " background in the Video Game task</br></br>";
+                html += "had a " + color2 + " background in the previous task (i.e., Task 1)</br></br>";
                 jsPsych.timelineVariable('trialImgs', true).map(function (e) {
                     html += "<img class='rcimg-12' src='" + e + "'>";
                 });
